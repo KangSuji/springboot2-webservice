@@ -9,7 +9,7 @@ var main = {
         var data = {
             title: $('#title').val(),
             author: $('#author').val(),
-            content: ('#content').val()
+            content: $('#content').val()
         };
 
         $.ajax({
@@ -26,4 +26,4 @@ var main = {
         });
     }
 };
-index.init();
+main.init();
